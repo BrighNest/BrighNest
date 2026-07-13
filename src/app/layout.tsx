@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Residential, commercial & specialty cleaning in Levittown, Bucks County & Greater Philadelphia. Licensed & insured. Request your free quote today.",
+    "Residential, commercial & specialty cleaning across Bucks County, Greater Philadelphia & nearby NJ. Licensed & insured. Request your free quote today.",
   applicationName: BUSINESS.name,
   authors: [{ name: BUSINESS.name }],
   openGraph: {

@@ -163,6 +163,33 @@ export function QuoteForm({ lockedService }: { lockedService?: string }) {
           </label>
         </div>
 
+        <label className="slate qf-consent qf-agree">
+          <input
+            type="checkbox"
+            name="consent"
+            value="Agreed to Service Agreement and Privacy Policy"
+            required
+            className="qf-agree-box"
+            onInvalid={(e) =>
+              e.currentTarget.setCustomValidity(
+                "To send your request, please confirm you agree to the Service Agreement and Privacy Policy.",
+              )
+            }
+            onChange={(e) => e.currentTarget.setCustomValidity("")}
+          />
+          <span>
+            I have read and agree to the{" "}
+            <Link href="/service-agreement" target="_blank" rel="noopener noreferrer">
+              Service Agreement
+            </Link>{" "}
+            and{" "}
+            <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+              Privacy Policy
+            </Link>
+            .
+          </span>
+        </label>
+
         <button
           type="submit"
           className="btn btn-gold qf-submit"
@@ -177,11 +204,6 @@ export function QuoteForm({ lockedService }: { lockedService?: string }) {
             again — or just call us.
           </p>
         )}
-
-        <p className="tc slate qf-consent">
-          By submitting, you agree to our{" "}
-          <Link href="/privacy-policy">Privacy Policy</Link>.
-        </p>
       </div>
     </form>
   );

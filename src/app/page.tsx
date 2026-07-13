@@ -50,12 +50,12 @@ const PROCESS = [
 export const metadata: Metadata = {
   title: "BrighNest Cleaning | Home & Office Cleaning in Levittown, PA",
   description:
-    "Residential, commercial & specialty cleaning in Levittown, Bucks County & Greater Philadelphia. Licensed & insured. Request your free quote today.",
+    "Residential, commercial & specialty cleaning across Bucks County, Greater Philadelphia & nearby NJ. Licensed & insured. Request your free quote today.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: "BrighNest Cleaning | Home & Office Cleaning in Levittown, PA",
     description:
-      "Residential, commercial & specialty cleaning in Levittown, Bucks County & Greater Philadelphia. Request your free quote today.",
+      "Residential, commercial & specialty cleaning across Bucks County, Greater Philadelphia & nearby NJ. Request your free quote today.",
     url: SITE_URL,
     type: "website",
     images: [OG_IMAGE],
@@ -89,8 +89,8 @@ export default function HomePage() {
                 </h1>
                 <p className="slate" style={{ maxWidth: 500, margin: "24px 0 0", fontSize: 18 }}>
                   Book trusted residential, commercial &amp; specialty cleaning across
-                  Bucks County &amp; Greater Philadelphia. Flat-rate pricing, vetted teams,
-                  and detail in every corner — no surprises.
+                  Bucks County, Greater Philadelphia &amp; nearby NJ. Flat-rate pricing,
+                  vetted teams, and detail in every corner — no surprises.
                 </p>
                 <div className="fx ac gap14 fwrap" style={{ marginTop: 30 }}>
                   <Link href="#quote" className="btn btn-gold">
@@ -206,8 +206,8 @@ export default function HomePage() {
                 Booking house cleaning in Levittown shouldn&apos;t take longer than the clean
                 itself. From your first quote to a spotless home, BrighNest keeps every
                 step simple — request flat-rate pricing online in 60 seconds, pick a date,
-                and let a vetted, insured team handle the rest across Bucks County &amp;
-                Greater Philadelphia.
+                and let a vetted, insured team handle the rest across Bucks County,
+                Greater Philadelphia &amp; nearby NJ.
               </p>
             </div>
             <div className="steps steps-dark">
@@ -338,8 +338,9 @@ export default function HomePage() {
                   Serving Levittown &amp; the surrounding area
                 </h2>
                 <p className="slate" style={{ fontSize: 16, maxWidth: 420, margin: 0 }}>
-                  We bring BrighNest cleaning across Bucks County &amp; Greater Philadelphia,
-                  within about 30 miles of Levittown. Don&apos;t see your town? Just ask.
+                  We bring BrighNest cleaning across Bucks County, Greater Philadelphia
+                  &amp; the Trenton, NJ area — within about 30 miles of Levittown.
+                  Don&apos;t see your town? Just ask.
                 </p>
               </div>
               <div className="area-chips fx ac gap10 fwrap">

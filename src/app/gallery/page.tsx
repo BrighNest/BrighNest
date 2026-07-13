@@ -18,12 +18,12 @@ const NAV_LINKS: NavLink[] = [
 export const metadata: Metadata = {
   title: "Project Gallery | BrighNest Cleaning",
   description:
-    "Before-and-after transformations from BrighNest Cleaning across Bucks County & Greater Philadelphia. Drag each slider to reveal the result.",
+    "Before-and-after transformations from BrighNest Cleaning across Bucks County, Greater Philadelphia & nearby NJ. Drag each slider to reveal the result.",
   alternates: { canonical: `${SITE_URL}/gallery` },
   openGraph: {
     title: "Project Gallery | BrighNest Cleaning",
     description:
-      "Before-and-after cleaning transformations across Bucks County & Greater Philadelphia.",
+      "Before-and-after cleaning transformations across Bucks County, Greater Philadelphia & nearby NJ.",
     url: `${SITE_URL}/gallery`,
     type: "website",
     images: [OG_IMAGE],
@@ -45,8 +45,8 @@ export default function GalleryPage() {
                 Before &amp; after, room by room
               </h1>
               <p className="slate" style={{ fontSize: 17, maxWidth: 540, margin: "0 auto" }}>
-                Real BrighNest work across Bucks County &amp; Greater Philadelphia —
-                candid shots from the job and before/after transformations.
+                Real BrighNest work across Bucks County, Greater Philadelphia &amp;
+                nearby NJ — candid shots from the job and before/after transformations.
               </p>
             </div>
           </div>

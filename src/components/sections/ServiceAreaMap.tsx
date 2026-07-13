@@ -35,7 +35,7 @@ export function ServiceAreaMap({
     >
       <iframe
         src={MAP_EMBED_URL}
-        title="BrighNest Cleaning service area map — Bucks County & Greater Philadelphia"
+        title="BrighNest Cleaning service area map — Bucks County, Greater Philadelphia & nearby NJ"
         loading="lazy"
         allowFullScreen
         style={{

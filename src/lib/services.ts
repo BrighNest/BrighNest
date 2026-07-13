@@ -65,21 +65,21 @@ export const SERVICES: Record<ServiceSlug, Service> = {
     eyebrow: "Residential Cleaning",
     h1: "House & Apartment Cleaning in Levittown, PA",
     heroSub:
-      "Trusted home cleaning across Bucks County & Greater Philadelphia — recurring, deep, or move-out. Vetted teams, eco-friendly products, and flat-rate pricing.",
+      "Trusted home cleaning across Bucks County, Greater Philadelphia & nearby NJ — recurring, deep, or move-out. Vetted teams, eco-friendly products, and flat-rate pricing.",
     heroAlt: "Sunlit open kitchen and dining room with gleaming hardwood floors after a home clean",
     intro:
-      "From Levittown split-levels to Newtown family homes, BrighNest keeps Bucks County households effortlessly clean. Our residential cleaning service is fully customizable — book weekly, bi-weekly, or monthly upkeep, a one-time deep clean, or a move-in / move-out reset. Every visit follows a detailed, room-by-room checklist, so you come home to a space that simply feels lighter.",
+      "From Levittown split-levels to Newtown family homes, BrighNest keeps Bucks County & nearby New Jersey households effortlessly clean. Our residential cleaning service is fully customizable — book weekly, bi-weekly, or monthly upkeep, a one-time deep clean, or a move-in / move-out reset. Every visit follows a detailed, room-by-room checklist, so you come home to a space that simply feels lighter.",
     included: [
-      "Kitchens — counters, sinks & appliance exteriors",
-      "Bathrooms — tubs, showers, toilets & mirrors",
-      "Dusting of all reachable surfaces",
-      "Vacuuming carpets & area rugs",
-      "Mopping all hard floors",
-      "Making beds & tidying rooms",
-      "Emptying trash & replacing liners",
-      "Interior window sills & ledges",
-      "Baseboards, doors & light switches",
-      "Fresh, streak-free finish throughout",
+      "All rooms dusted & cleaned",
+      "Kitchen — countertops, sink & stovetop",
+      "Appliance exteriors & microwave interior",
+      "Bathrooms — toilet, sink, shower & tub",
+      "Floors vacuumed & mopped",
+      "Making beds & wiping windowsills",
+      "Light switches, door handles & high-touch spots",
+      "Light baseboard dusting (standard reach)",
+      "Mirrors & glass surfaces",
+      "Trash removal & liner replacement",
     ],
     process: [
       { n: "1", title: "Request a quote", desc: "Tell us about your home in 60 seconds. Flat-rate pricing within 24 hours." },
@@ -97,12 +97,14 @@ export const SERVICES: Record<ServiceSlug, Service> = {
       { q: "How often should I book?", a: "Most clients choose weekly or bi-weekly upkeep. For a first visit or after a busy stretch, we recommend starting with a deep clean, then switching to recurring service." },
       { q: "Are your products safe for kids and pets?", a: "Yes. Our standard kit is non-toxic and biodegradable. Prefer fragrance-free or a specific brand? Just note it on your booking." },
       { q: "Do I need to be home?", a: "Not at all. Many clients provide a lockbox code or entry instructions. Our vetted, insured teams follow strict key-handling protocols." },
+      { q: "What's included in a move-in / move-out clean?", a: "The base visit covers all rooms dusted and cleaned, kitchen surfaces and countertops, bathroom cleaning, floors vacuumed and mopped, light baseboard dusting, mirrors and glass, and trash removal. Inside cabinets, oven, and fridge are available as add-ons — worth adding before a move-in so you can unpack dishes and food into a truly clean space." },
+      { q: "Can I add extras to my visit?", a: "Yes — inside cabinets, inside oven, inside fridge, full baseboard washing, and interior windows are available as add-ons on any visit. Add-on pricing is confirmed with your quote before work begins — just ask when you book." },
       { q: "Can I reschedule or cancel?", a: "Yes — reschedule anytime with 24 hours’ notice at no charge." },
     ],
     related: ["deep", "windows", "commercial"],
     metaTitle: "House Cleaning in Levittown, PA | Residential | BrighNest",
     metaDescription:
-      "Trusted residential cleaning in Levittown & Bucks County, PA. Recurring, deep & move-out cleans, eco-friendly & insured. Request your free quote today.",
+      "Trusted residential cleaning in Levittown, Bucks County & nearby NJ. Recurring, deep & move-out cleans, eco-friendly & insured. Get a free quote today.",
   },
 
   commercial: {
@@ -116,10 +118,10 @@ export const SERVICES: Record<ServiceSlug, Service> = {
     eyebrow: "Commercial Cleaning",
     h1: "Office & Commercial Cleaning in Levittown, PA",
     heroSub:
-      "Reliable, discreet janitorial and office cleaning for Bucks County businesses — after-hours or on schedule, cleaned to an executive standard.",
+      "Reliable, discreet janitorial and office cleaning for Bucks County & Trenton-area businesses — after-hours or on schedule, cleaned to an executive standard.",
     heroAlt: "Bright modern office with glass partitions and tidy workstations after a commercial clean",
     intro:
-      "Keep your workplace polished and professional with BrighNest commercial cleaning. We service offices, boutiques, medical suites, and retail spaces across Bucks County & Greater Philadelphia, working around your hours so business never stops. Expect consistent teams, checklist-driven quality, and flexible contracts scaled precisely to your space.",
+      "Keep your workplace polished and professional with BrighNest commercial cleaning. We service offices, boutiques, medical suites, and retail spaces across Bucks County, Greater Philadelphia & nearby NJ, working around your hours so business never stops. Expect consistent teams, checklist-driven quality, and flexible contracts scaled precisely to your space.",
     included: [
       "Reception & common areas",
       "Workstations & desk surfaces",
@@ -148,12 +150,12 @@ export const SERVICES: Record<ServiceSlug, Service> = {
       { q: "Can you clean after business hours?", a: "Absolutely. Most of our commercial clients are serviced evenings or early mornings so operations are never interrupted." },
       { q: "Do you bring your own supplies?", a: "Yes — we supply all professional-grade equipment and products. We can also match your preferred brands on request." },
       { q: "Are you insured and bonded?", a: "Fully. BrighNest is licensed, insured, and bonded, and every team member is background-checked." },
-      { q: "What types of businesses do you serve?", a: "Offices, retail, boutiques, medical and dental suites, salons, and professional spaces across Bucks County & Greater Philadelphia." },
+      { q: "What types of businesses do you serve?", a: "Offices, retail, boutiques, medical and dental suites, salons, and professional spaces across Bucks County, Greater Philadelphia & nearby NJ." },
     ],
     related: ["postconstruction", "windows", "deep"],
     metaTitle: "Office & Commercial Cleaning in Levittown, PA | BrighNest",
     metaDescription:
-      "Discreet, reliable commercial & office cleaning across Bucks County & Greater Philadelphia. After-hours service, bonded & insured. Get a free walk-through quote.",
+      "Discreet commercial & office cleaning across Bucks County, Greater Philadelphia & nearby NJ. After-hours, bonded & insured. Get a free walk-through quote.",
   },
 
   postconstruction: {
@@ -170,7 +172,7 @@ export const SERVICES: Record<ServiceSlug, Service> = {
       "Fine-dust removal and detail cleaning after builds and remodels — so your new space is move-in ready and truly spotless.",
     heroAlt: "Newly renovated home interior with fresh white walls and dust-free hardwood floors",
     intro:
-      "Construction and remodeling leave behind fine drywall dust that ordinary cleaning simply can’t handle. BrighNest specializes in post-construction cleanup across Bucks County & Greater Philadelphia — from a single renovated kitchen to an entire property. We clear debris, dust every surface top to bottom, and hand-detail the finish so your space is polished and move-in ready.",
+      "Construction and remodeling leave behind fine drywall dust that ordinary cleaning simply can’t handle. BrighNest specializes in post-construction cleanup across Bucks County, Greater Philadelphia & nearby NJ — from a single renovated kitchen to an entire property. We clear debris, dust every surface top to bottom, and hand-detail the finish so your space is polished and move-in ready.",
     included: [
       "Removal of construction debris & dust",
       "Wiping walls, ceilings & fixtures",
@@ -204,7 +206,7 @@ export const SERVICES: Record<ServiceSlug, Service> = {
     related: ["deep", "windows", "residential"],
     metaTitle: "Post-Construction Cleaning in Levittown, PA | BrighNest",
     metaDescription:
-      "Fine-dust post-construction & renovation cleanup in Bucks County & Greater Philadelphia. HEPA tools, white-glove finish, contractor-friendly. Get a free quote.",
+      "Fine-dust post-construction & renovation cleanup in Bucks County, Greater Philadelphia & nearby NJ. HEPA tools, white-glove finish. Get a free quote.",
   },
 
   windows: {
@@ -221,7 +223,7 @@ export const SERVICES: Record<ServiceSlug, Service> = {
       "Crystal-clear interior and exterior windows for homes and businesses — no streaks, no spots, just more light.",
     heroAlt: "Wall of streak-free windows letting sunlight into a clean living room",
     intro:
-      "Pollen in spring, dust in summer, and road grime through winter are hard on glass. BrighNest brings professional window cleaning to homes and businesses across Bucks County & Greater Philadelphia, restoring clarity inside and out. We hand-detail frames, sills, and tracks — not just the glass — so every window looks genuinely finished.",
+      "Pollen in spring, dust in summer, and road grime through winter are hard on glass. BrighNest brings professional window cleaning to homes and businesses across Bucks County, Greater Philadelphia & nearby NJ, restoring clarity inside and out. We hand-detail frames, sills, and tracks — not just the glass — so every window looks genuinely finished.",
     included: [
       "Interior glass, streak-free",
       "Exterior glass, ground level",
@@ -255,7 +257,7 @@ export const SERVICES: Record<ServiceSlug, Service> = {
     related: ["postconstruction", "commercial", "residential"],
     metaTitle: "Streak-Free Window Cleaning in Levittown, PA | BrighNest",
     metaDescription:
-      "Professional interior & exterior window cleaning across Bucks County & Greater Philadelphia. Streak-free glass, frames & tracks detailed. Get a free quote.",
+      "Interior & exterior window cleaning across Bucks County, Greater Philadelphia & nearby NJ. Streak-free glass, frames & tracks detailed. Get a free quote.",
   },
 
   deep: {
@@ -269,21 +271,20 @@ export const SERVICES: Record<ServiceSlug, Service> = {
     eyebrow: "Deep Cleaning",
     h1: "Deep Cleaning Services in Levittown, PA",
     heroSub:
-      "A top-to-bottom reset for your home — every corner, baseboard, and hidden surface, done right the first time.",
+      "A top-to-bottom reset for your home — every room cleaned with extra time and attention to detail.",
     heroAlt: "Marble bathroom and bedroom polished to a shine after a top-to-bottom deep clean",
     intro:
-      "A deep clean goes far beyond routine tidying. BrighNest’s deep cleaning service in Bucks County targets the built-up grime ordinary cleaning misses — inside appliances, behind fixtures, along baseboards and grout. It’s the perfect reset before guests arrive, after a busy season, or to kick off recurring service on the right foot.",
+      "A deep clean goes far beyond routine tidying. BrighNest’s deep cleaning service in Bucks County & nearby NJ takes extra time in every room — thorough dusting throughout, detailed kitchen surfaces, bathroom deep cleaning, plus doors, light switches, and reachable vents. It’s the perfect reset before guests arrive, after a busy season, or to kick off recurring service on the right foot.",
     included: [
-      "Inside oven, fridge & microwave",
-      "Baseboards, trim & door frames",
-      "Grout & tile scrubbing",
-      "Cabinet fronts & handles",
-      "Detailed bathroom descaling",
-      "Behind & under movable furniture",
-      "Vents, ceiling fans & fixtures",
-      "Interior windows & sills",
-      "Full dusting, high to low",
-      "Floors deep-mopped & detailed",
+      "All rooms thoroughly dusted & cleaned",
+      "Kitchen surfaces & countertops, detailed",
+      "Bathroom deep cleaning — toilet, sink, shower & tub",
+      "Exterior of kitchen appliances & cabinets",
+      "Doors, light switches & reachable vents",
+      "Light baseboard dusting",
+      "Floors vacuumed & mopped",
+      "Mirrors & glass surfaces",
+      "Trash removal",
     ],
     process: [
       { n: "1", title: "Request a quote", desc: "Share your home’s size and condition for flat-rate pricing." },
@@ -299,14 +300,15 @@ export const SERVICES: Record<ServiceSlug, Service> = {
     faq: [
       { q: "How long does a deep clean take?", a: "Most homes take 3–6 hours depending on size and condition. We’ll give you an estimate with your quote." },
       { q: "How often do I need one?", a: "A deep clean once or twice a year keeps a home in top shape — more often for high-traffic households or before big occasions." },
-      { q: "How is it different from a standard clean?", a: "A deep clean adds inside-appliance cleaning, grout scrubbing, baseboards, behind furniture, and detailed descaling that a routine visit doesn’t cover." },
+      { q: "How is it different from a standard clean?", a: "A deep clean covers the same areas as a standard visit with significantly more time and detail — thorough dusting throughout, detailed kitchen surfaces, bathroom deep cleaning, plus doors, light switches, reachable vents, and light baseboard dusting." },
+      { q: "Are inside appliances and cabinets included?", a: "Inside oven, fridge, and cabinet cleaning are add-on services, along with full baseboard washing and interior windows. Deep cleaning focuses on detail throughout the home, and these time-intensive areas are quoted separately — pricing is confirmed with your quote before work begins." },
       { q: "Should I book a deep clean before recurring service?", a: "We recommend it — starting with a deep clean brings the home to a baseline that recurring visits then maintain easily." },
       { q: "How much does it cost?", a: "Deep cleans are priced by home size and condition. You’ll receive transparent, flat-rate pricing after a quick quote." },
     ],
     related: ["residential", "postconstruction", "windows"],
     metaTitle: "Deep Cleaning Services in Levittown, PA | BrighNest",
     metaDescription:
-      "Top-to-bottom deep cleaning in Bucks County & Greater Philadelphia. Inside appliances, grout, baseboards & more. Vetted, insured teams. Get a free quote.",
+      "Top-to-bottom deep cleaning in Bucks County, Greater Philadelphia & nearby NJ. Detailed kitchens, bathrooms, baseboards & vents. Get a free quote.",
   },
 };
 

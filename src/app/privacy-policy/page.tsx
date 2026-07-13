@@ -6,7 +6,7 @@ import { BUSINESS } from "@/lib/constants";
 
 const NAV_LINKS: NavLink[] = [];
 
-const EFFECTIVE_DATE = "July 11, 2026";
+const EFFECTIVE_DATE = "July 14, 2026";
 
 /**
  * Privacy policy for the quote form disclosure and footer link. Kept out of
@@ -47,9 +47,12 @@ export default function PrivacyPolicyPage() {
             <p>
               We collect information you choose to give us when you request a quote or contact us —
               typically your name, phone number, email address, the service you&rsquo;re interested
-              in, and any details you include about your space. We may also automatically collect
-              limited technical information, such as your browser type, device, and general usage
-              data, through standard web technologies.
+              in, and any details you include about your space. When you submit a quote request, we
+              also record your confirmation that you agree to our{" "}
+              <Link href="/service-agreement">Service Agreement</Link> and this Privacy Policy,
+              together with your submission. We may also automatically collect limited technical
+              information, such as your browser type, device, and general usage data, through
+              standard web technologies.
             </p>
 
             <h2>How we use your information</h2>

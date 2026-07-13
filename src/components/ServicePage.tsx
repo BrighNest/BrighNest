@@ -205,7 +205,8 @@ export function ServicePage({ service }: { service: Service }) {
                 Booking {service.eyebrow.toLowerCase()} in Levittown shouldn&apos;t take longer than
                 the clean itself. From your first quote to a spotless result, BrighNest keeps every
                 step simple — request flat-rate pricing online in 60 seconds, pick a date, and let a
-                vetted, insured team handle the rest across Bucks County &amp; Greater Philadelphia.
+                vetted, insured team handle the rest across Bucks County, Greater Philadelphia
+                &amp; nearby NJ.
               </p>
             </div>
             <div className="steps steps-dark">
@@ -270,8 +271,9 @@ export function ServicePage({ service }: { service: Service }) {
                   Serving Levittown &amp; the surrounding area
                 </h2>
                 <p className="slate" style={{ fontSize: 16, maxWidth: 420, margin: 0 }}>
-                  We bring BrighNest {service.eyebrow.toLowerCase()} across Bucks County &amp; Greater
-                  Philadelphia, within about 30 miles of Levittown. Don&apos;t see your town? Just ask.
+                  We bring BrighNest {service.eyebrow.toLowerCase()} across Bucks County, Greater
+                  Philadelphia &amp; the Trenton, NJ area — within about 30 miles of Levittown.
+                  Don&apos;t see your town? Just ask.
                 </p>
               </div>
               <div className="area-chips fx ac gap10 fwrap">

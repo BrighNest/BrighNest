@@ -225,6 +225,7 @@ p {
   font-size: 21px;
   margin: 34px 0 12px;
   letter-spacing: -0.01em;
+  scroll-margin-top: 96px;
 }
 .legal ul {
   margin: 0 0 18px;
@@ -238,6 +239,51 @@ p {
   font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* Table of contents card on long legal pages */
+.toc {
+  margin: 0 0 42px;
+  padding: 24px 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+}
+.toc-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--goldd);
+  margin-bottom: 12px;
+}
+.toc ol {
+  margin: 0;
+  padding-left: 22px;
+  columns: 2;
+  column-gap: 36px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.toc li {
+  margin-bottom: 7px;
+  break-inside: avoid;
+}
+.toc a {
+  color: var(--slate);
+  text-decoration: none;
+  transition: color 0.15s ease-out;
+}
+.toc a:hover {
+  color: var(--goldd);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+@media (max-width: 640px) {
+  .toc ol {
+    columns: 1;
+  }
 }
 
 /* Privacy consent line under the quote form (sits on a dark card) */
@@ -841,6 +887,70 @@ select.field option:checked {
 .qf-consent {
   font-size: 12px;
   margin-top: 2px;
+}
+/* Required agreement toggle — a switch that "lights up" gold when on.
+   Styled on the input itself (appearance: none) so native required
+   validation and keyboard focus keep working. */
+.qf-agree {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  cursor: pointer;
+  line-height: 1.55;
+}
+.qf-agree > span {
+  padding-top: 3px;
+}
+.qf-agree-box {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  position: relative;
+  width: 42px;
+  height: 24px;
+  margin: 0;
+  border-radius: 999px;
+  background: #26262e;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+  transition: background-color 0.25s ease-out, border-color 0.25s ease-out,
+    box-shadow 0.25s ease-out;
+}
+.qf-agree-box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #8a877f;
+  transform: translateY(-50%);
+  transition: transform 0.25s cubic-bezier(0.34, 1.3, 0.64, 1),
+    background-color 0.25s ease-out;
+}
+.qf-agree-box:checked {
+  background: linear-gradient(135deg, var(--gold2), var(--gold));
+  border-color: var(--gold2);
+  box-shadow: 0 6px 18px -8px rgba(224, 188, 99, 0.55);
+}
+.qf-agree-box:checked::before {
+  transform: translateY(-50%) translateX(18px);
+  background: var(--ink);
+}
+.qf-agree-box:user-invalid {
+  border-color: #d98b78;
+}
+.qf-agree-box:focus-visible {
+  outline: 2px solid var(--gold2);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .qf-agree-box,
+  .qf-agree-box::before {
+    transition: none;
+  }
 }
 .qf-error {
   font-size: 13px;

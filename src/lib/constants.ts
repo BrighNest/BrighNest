@@ -24,7 +24,13 @@ export const BUSINESS = {
     postalCode: "19056",
     country: "US",
   },
-  areaServed: ["Bucks County", "Philadelphia County", "Montgomery County"],
+  areaServed: [
+    "Bucks County, PA",
+    "Philadelphia County, PA",
+    "Montgomery County, PA",
+    "Mercer County, NJ",
+    "Burlington County, NJ",
+  ],
   instagram: INSTAGRAM_URL,
   instagramHandle: "@brighnestcleaningllc",
   social: [INSTAGRAM_URL] as string[],
@@ -45,7 +51,8 @@ export const OG_IMAGE = {
   alt: "BrighNest Cleaning — residential, commercial & specialty cleaning in Levittown, PA",
 };
 
-/** Towns within ~30 miles of Levittown, PA that we serve. */
+/** Towns within ~30 miles of Levittown, PA that we serve — PA towns bare,
+ *  NJ towns (Trenton and its largest neighbors) carry the state suffix. */
 export const NEIGHBORHOODS = [
   "Levittown",
   "Bristol",
@@ -59,4 +66,10 @@ export const NEIGHBORHOODS = [
   "Trevose",
   "Doylestown",
   "Philadelphia",
+  "Trenton, NJ",
+  "Hamilton, NJ",
+  "Ewing, NJ",
+  "Princeton, NJ",
+  "Bordentown, NJ",
+  "Burlington, NJ",
 ];

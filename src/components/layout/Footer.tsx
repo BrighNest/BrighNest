@@ -27,8 +27,8 @@ export function Footer() {
               style={{ height: 42, width: "auto", marginBottom: 16 }}
             />
             <p className="slate" style={{ fontSize: 14.5, maxWidth: 300 }}>
-              Residential, commercial &amp; specialty cleaning across Bucks County
-              &amp; Greater Philadelphia. Where bright meets home.
+              Residential, commercial &amp; specialty cleaning across Bucks County,
+              Greater Philadelphia &amp; nearby NJ. Where bright meets home.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export function Footer() {
           }}
         >
           <span className="slate fx ac gap8 fwrap" style={{ fontSize: 12.5 }}>
-            © {new Date().getFullYear()} {BUSINESS.name} · Licensed &amp; Insured · Bucks County &amp; Greater Philadelphia
+            © {new Date().getFullYear()} {BUSINESS.name} · Licensed &amp; Insured · Bucks County, Greater Philadelphia &amp; NJ
             <span aria-hidden="true">·</span>
             <Link href="/gallery" className="navlink">
               Gallery
@@ -118,6 +118,10 @@ export function Footer() {
             <span aria-hidden="true">·</span>
             <Link href="/privacy-policy" className="navlink">
               Privacy Policy
+            </Link>
+            <span aria-hidden="true">·</span>
+            <Link href="/service-agreement" className="navlink">
+              Service Agreement
             </Link>
           </span>
           <div className="fx ac gap12">
